@@ -51,7 +51,7 @@ android {
 
 dependencies {
 
-    implementation("androidx.core:core-ktx:1.9.0")
+    implementation("androidx.core:core-ktx:1.10.1")
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.6.1")
     implementation("androidx.activity:activity-compose:1.7.2")
     implementation(platform("androidx.compose:compose-bom:2023.03.00"))
@@ -74,7 +74,8 @@ dependencies {
     testImplementation("org.mockito:mockito-inline:3.12.4")
     testImplementation("org.mockito.kotlin:mockito-kotlin:4.0.0")
     testImplementation("android.arch.core:core-testing:1.1.1")
-    testImplementation("org.jetbrains.kotlinx:kotlinx-coroutines-test:1.3.4")
+    testImplementation("org.jetbrains.kotlinx:kotlinx-coroutines-test:1.7.1")
 
     testImplementation("app.cash.turbine:turbine:1.0.0")
+    testImplementation ("io.mockk:mockk:1.13.7")
 }
